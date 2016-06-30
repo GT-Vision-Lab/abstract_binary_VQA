@@ -1,0 +1,31 @@
+(ROOT
+  (SQ (VBZ Is)
+    (NP (DT this) (NN man))
+    (ADJP (JJ hungry))
+    (. ?)))
+
+cop(hungry-4, Is-1)
+det(man-3, this-2)
+nsubj(hungry-4, man-3)
+root(ROOT-0, hungry-4)
+
+(ROOT
+  (SQ (NNP Does)
+    (NP (DT this) (NN woman))
+    (VP (VB tie)
+      (NP (PRP$ her) (NNS shoes))
+      (PP (IN in)
+        (NP (DT the) (NN morning))))
+    (. ?)))
+
+dep(tie-4, Does-1)
+det(woman-3, this-2)
+nsubj(tie-4, woman-3)
+root(ROOT-0, tie-4)
+nmod:poss(shoes-6, her-5)
+dobj(tie-4, shoes-6)
+case(morning-9, in-7)
+det(morning-9, the-8)
+nmod:in(tie-4, morning-9)
+
+(ROOT
