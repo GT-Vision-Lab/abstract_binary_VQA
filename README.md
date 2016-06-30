@@ -1,6 +1,6 @@
 # abstract_binary_VQA
 
-The balanced dataset will be publicly available soon. Email both the authors if you need it before that.
+The information about balanced dataset can be found in the folder 'balanced_dataset'.
 
 The code for training and testing VQA model will be publicly available soon. Email both the authors if you need it before that.
 
