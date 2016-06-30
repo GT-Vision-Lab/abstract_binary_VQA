@@ -13,15 +13,16 @@ The zip file contains 6 folders-- {unbalanced, balanced}_{train, val, test}_data
 The subfolders inside each of the above folder are explained below (with the example of 'balanced_test_data'):
 
 'balanced_test_data/' <br />
-> 'vqa/' contains OpenEnded and MultipleChoice questions, and annotation files <br />
-> 'scene_data/' contains the scenes information <br />
-> 'attention_features/' contains attention features (A-IMG) used by our approach (Q+Tuple+A-IMG) for all scenes (one row for each scene) <br />
-> 'holistic_features/' contains holistic features (H-IMG) used by baseline (Q+Tuple+H-IMG) for all scenes (one row for each scene) <br />
-> 'scenes_id/' contains the mapping between rows of features and the question ids. Index i in the scenes_id file contains the question id of the data point (image, question) to which the image features at row i in the features file refer to. For example, the image features for a datapoint with question id x can be accessed using `features[scenes_id.index(x)]` (loosely using python syntax) <br />
->> 'ills/' contains png image files <br />
->> 'json/' contains scene information in json format (More details about the structure of the json can be found [here](https://github.com/VT-vision-lab/abstract_scenes_v002#scene-json-format) <br />
->>> 'balanced_abstract_v002_test.json' contains the scene information for all scenes in one big file <br />
->>> 'balanced_abstract_v002_test_indv/' contains individual scene information files <br />
+--'vqa/' contains OpenEnded and MultipleChoice questions, and annotation files <br />
+--'scene_data/' contains the scenes information <br />
+----'ills/' contains png image files <br />
+----'json/' contains scene information in json format (More details about the structure of the json can be found [here](https://github.com/VT-vision-lab/abstract_scenes_v002#scene-json-format) <br />
+------'balanced_abstract_v002_test.json' contains the scene information for all scenes in one big file <br />
+------'balanced_abstract_v002_test_indv/' contains individual scene information files <br />
+--'attention_features/' contains attention features (A-IMG) used by our approach (Q+Tuple+A-IMG) for all scenes (one row for each scene) <br />
+--'holistic_features/' contains holistic features (H-IMG) used by baseline (Q+Tuple+H-IMG) for all scenes (one row for each scene) <br />
+--'scenes_id/' contains the mapping between rows of features and the question ids. Index i in the scenes_id file contains the question id of the data point (image, question) to which the image features at row i in the features file refer to. For example, the image features for a datapoint with question id x can be accessed using `features[scenes_id.index(x)]` (loosely using python syntax) <br />
+
 
 
 
