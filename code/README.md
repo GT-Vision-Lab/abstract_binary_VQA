@@ -2,9 +2,9 @@
 
 This is the code for extracting attention-based image features used in the paper: 
 
-Yin and Yang: Balancing and Answering Binary Visual Questions
-Peng Zhang*, Yash Goyal*, Douglas Summers-Stay, Dhruv Batra, Devi Parikh
-Computer Vision and Pattern Recognition (CVPR), 2016
+Yin and Yang: Balancing and Answering Binary Visual Questions.
+Peng Zhang*, Yash Goyal*, Douglas Summers-Stay, Dhruv Batra, Devi Parikh.
+Computer Vision and Pattern Recognition (CVPR), 2016.
 
 There are three folders: tuple extraction, mutual information and feature extraction.
 
