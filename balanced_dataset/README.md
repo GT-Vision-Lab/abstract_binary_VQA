@@ -13,10 +13,10 @@ The zip file contains 6 folders-- {unbalanced, balanced}_{train, val, test}_data
 The subfolders inside each of the above folder are explained below (with the example of 'balanced_test_data'):
 
 'balanced_test_data/' <br />
-_'vqa/' contains OpenEnded and MultipleChoice questions, and annotation files <br />
-__'scene_data/' contains the scenes information <br />
-		'ills/' contains png image files <br />
-		'json/' contains scene information in json format (More details about the structure of the json can be found [here](https://github.com/VT-vision-lab/abstract_scenes_v002#scene-json-format) <br />
+> 'vqa/' contains OpenEnded and MultipleChoice questions, and annotation files <br />
+> 'scene_data/' contains the scenes information <br />
+>> 'ills/' contains png image files <br />
+>> 'json/' contains scene information in json format (More details about the structure of the json can be found [here](https://github.com/VT-vision-lab/abstract_scenes_v002#scene-json-format) <br />
 			'balanced_abstract_v002_test.json' contains the scene information for all scenes in one big file <br />
 			'balanced_abstract_v002_test_indv/' contains individual scene information files <br />
 	'attention_features/' contains attention features (A-IMG) used by our approach (Q+Tuple+A-IMG) for all scenes (one row for each scene) <br />
