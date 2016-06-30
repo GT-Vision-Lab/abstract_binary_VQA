@@ -1,4 +1,4 @@
-# Binary-VQA
+# Attention-based image features for abstract binary VQA
 
 This is the code for extracting attention-based image features used in the paper: 
 
